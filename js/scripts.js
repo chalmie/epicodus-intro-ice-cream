@@ -3,7 +3,8 @@ $(document).ready(function() {
   var flavors = ["vanilla","chocolate","peach","strawberry"];
   // loop through flavors
   flavors.forEach(function(flavor) {
-    alert("I'm working " + flavor);
+    // alert("I'm working " + flavor);
+    // add flavors to list
+    $("#ice-cream").append("<li>" + flavor + "</li>");
   });
-  // add flavors to list
 });
